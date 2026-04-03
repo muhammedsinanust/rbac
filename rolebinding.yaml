@@ -7,7 +7,10 @@ subjects:
 - kind: User
   name: raj
   apiGroup: rbac.authorization.k8s.io
+- kind: ServiceAccount
+  name: noti-serviceaccount
+  namespace: team3-ns
 roleRef:
   kind: Role
-  name: pod-manager
+  name: sa-role
   apiGroup: rbac.authorization.k8s.io
