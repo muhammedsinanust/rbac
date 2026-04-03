@@ -4,5 +4,5 @@ metadata:
   name: cluster-pod-manager
 rules:
 - apiGroups: [""]
-  resources: ["namespace", "nodes", "pods"]
+  resources: ["namespaces", "nodes", "pods"]
   verbs: ["get", "list", "watch"]
